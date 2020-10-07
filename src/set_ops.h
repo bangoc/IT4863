@@ -1,3 +1,6 @@
+#ifndef SET_OPS_H_
+#define SET_OPS_H_
+
 #include <vector>
 
 template<typename T>
@@ -20,3 +23,5 @@ int Intersect(const std::vector<T> &a, const std::vector<T> &b,
   }
   return cc;
 }
+
+#endif  // SET_OPS_H_
